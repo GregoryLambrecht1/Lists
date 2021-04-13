@@ -11,8 +11,7 @@ public class Opdracht1_2 {
         boolean giveAnotherWord = true;
         while (giveAnotherWord) {
             System.out.println("give a word to make a sentence, give a word that ends with '.' to end the sentence");
-            String sent1 = scanner.next();
-            sentence.add(sent1);
+            sentence.add(scanner.next());
             //checking if the word ends with a "."
             if (sent1.endsWith(".")){
                 System.out.println("sentence complete");
