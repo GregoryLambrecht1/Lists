@@ -1,5 +1,3 @@
-package lists;
-
 import java.util.Objects;
 
 public class Person {
@@ -87,11 +85,11 @@ public class Person {
     public String toString() {
         return
                 "firstName :" + firstName +
-                ", lastName :" + lastName +
-                ", gender :" + gender +
-                ", age: " + age +
-                ", weight: " + weight +
-                ", height: " + height
+                        ", lastName :" + lastName +
+                        ", gender :" + gender +
+                        ", age: " + age +
+                        ", weight: " + weight +
+                        ", height: " + height
                 ;
     }
 }
